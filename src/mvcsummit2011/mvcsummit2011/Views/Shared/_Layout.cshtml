@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <META NAME="KEYWORDS" CONTENT="ASP.NET MVC 3, MVC 3, ASP.NET MVC, MVC, MVC Summit, ASP.NET MVC Summit">
+    <META NAME="DESCRIPTION" CONTENT="tudo que você precisa saber sobre o ASP.NET MVC">
+    <title>(ASP.NET) MVC Summit 2011</title>
+    <link rel="stylesheet" href='@Url.Content("~/Content/Site.css")'/>
+</head>
+<body>
+    <div class='header'>
+        <div class='logo'>
+            <a href='@Url.Action("Index")'>
+                <img src='@Url.Content("~/images/mvcsummit_logo.png")' alt="ASP.NET MVC Summit 2011" />
+            </a>
+        </div>
+    </div>
+    <div class='top-menu'>
+        <ul class="menu">
+            <li>@Html.ActionLink("O Evento", "OEvento")</li>
+            <li>@Html.ActionLink("Grade", "Grade")</li>
+            <li><a href="#">Palestrantes</a></li>
+            <li><a href="#">Inscrições</a></li>
+            <li>@Html.ActionLink("Contato", "Contato")</li>
+        </ul>
+    </div>
+    <div class="content">
+        @RenderBody()
+    </div>
+    <div class="footer">
+        <p>Design e layout por André Baltieri e Vinicius Quaiato - MVC Summit 2011</p>
+    </div>
+</body>
+</html>

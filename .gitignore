@@ -1,0 +1,13 @@
+bin/
+obj/
+Tools/
+*.suo
+*.user
+_ReSharper.mvcsummit2011/
+
+*.exe
+*.nupkg
+*.pdb
+license.txt
+
+lib/*/*.xml

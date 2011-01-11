@@ -1,0 +1,121 @@
+body{
+		margin:0;
+		padding:0;
+		font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	}
+	.header{
+		width:950px;
+		margin: 0 auto;
+	}
+	.logo{
+		height:125px;
+	}
+	.top-menu{
+		width:950px;
+		margin: 0 auto;
+		background-color:#1BA1E2;
+	}
+	ul.menu{
+		padding:0px;
+		margin:0px;
+		width: 100%;
+		float:left;
+		background-color:#1BA1E2;
+		list-style:none;
+		font-size:80%;
+		
+		text-align:right;
+	}
+	.menu li{		
+		display:inline;		
+	}
+	.menu li a{
+		background-color:#1BA1E2;
+		font-weight:bold;
+		float:left;
+		color: #fff;
+		text-decoration: none;
+		border-bottom:4px solid #1BA1E2;
+		padding: 10px 20px;
+		font-size:24px;
+	}
+	.menu li a:hover{
+		background-color:#D6D6D6;
+		color: #6D6D6D;
+		border-bottom:4px solid #fff;
+	}
+	.content{
+		width:950px;
+		margin: 0 auto;
+		background:#E2E2E2;
+		color:#000;
+		font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+		min-height:400px;
+		padding-bottom:10px;
+	}
+	.content h1{
+		text-align:right;
+		border-bottom:4px #fff solid;
+		padding-right:30px;
+	}
+	.content p{
+		font-size:18px;	
+		margin-left:20px;
+		margin-right:20px;
+	}
+	p.assinatura
+	{
+	    text-align:right;
+	}
+	.footer
+	{
+	    background:#1BA1E2;
+	    width:950px;
+	    margin: 0 auto;
+	}
+	.footer p
+	{
+	    font-size:14px;
+	    color:#fff;
+	    padding:6px;
+	    margin:0;
+	    text-align:center;
+	}
+	table
+	{
+	    margin:0 auto;
+	    text-align:left;
+	}
+	thead tr
+	{
+	    background:#1BA1E2;
+	    height:30px;
+	}
+	thead tr th
+	{
+	    padding:10px;
+	}
+	th.palestrante
+	{
+	    width:150px;
+	}
+	th.palestra
+	{
+	    width:550px;
+	}
+	.centro
+	{
+	    text-align:center;
+	}
+	
+	.grade
+	{
+	    width:800px;
+	    border:1px dashed #ff0000;
+	    margin:10px auto;
+	    padding:0;
+	}
+	.grade p
+	{
+	    font-size:16px;
+	}
