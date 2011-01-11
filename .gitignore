@@ -11,3 +11,5 @@ _ReSharper.mvcsummit2011/
 license.txt
 
 lib/*/*.xml
+
+publish/

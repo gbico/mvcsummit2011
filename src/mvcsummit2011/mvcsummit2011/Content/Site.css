@@ -10,6 +10,12 @@ body{
 	.logo{
 		height:125px;
 	}
+	.logo a:active,a:hover,a:visited
+	{
+	    border:0px;
+	    text-decoration:none;
+	}
+	.logo img{border:0 none;}
 	.top-menu{
 		width:950px;
 		margin: 0 auto;
@@ -106,6 +112,10 @@ body{
 	.centro
 	{
 	    text-align:center;
+	}
+	tbody tr:hover
+	{
+	    background:#a2a2a2;
 	}
 	
 	.grade
