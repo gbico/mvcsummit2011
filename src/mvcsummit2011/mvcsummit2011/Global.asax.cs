@@ -19,7 +19,7 @@ namespace mvcsummit2011
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute("Vazia", "", new {controller = "MVCSummit", action = "Index"});
-            routes.MapRoute("Default","MVCSummit/2011/{action}", new { controller = "MVCSummit", action = "Index", id = UrlParameter.Optional });
+            routes.MapRoute("Default","2011/{action}", new { controller = "MVCSummit", action = "Index", id = UrlParameter.Optional });
         }
 
         protected void Application_Start()
