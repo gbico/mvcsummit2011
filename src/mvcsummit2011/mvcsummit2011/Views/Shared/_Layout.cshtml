@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <META NAME="KEYWORDS" CONTENT="ASP.NET MVC 3, MVC 3, ASP.NET MVC, MVC, MVC Summit, ASP.NET MVC Summit">
-    <META NAME="DESCRIPTION" CONTENT="tudo que você precisa saber sobre o ASP.NET MVC">
+    <meta name="KEYWORDS" content="ASP.NET MVC 3, MVC 3, ASP.NET MVC, MVC, MVC Summit, ASP.NET MVC Summit">
+    <meta name="DESCRIPTION" content="tudo que você precisa saber sobre o ASP.NET MVC">
     <title>(ASP.NET) MVC Summit 2011</title>
     <link rel="stylesheet" href='@Url.Content("~/Content/Site.css")'/>
 </head>
@@ -19,8 +19,8 @@
         <ul class="menu">
             <li>@Html.ActionLink("O Evento", "OEvento")</li>
             <li>@Html.ActionLink("Grade", "Grade")</li>
-            <li><a href="#">Palestrantes</a></li>
-            <li><a href="#">Inscrições</a></li>
+@*            <li><a href="#">Palestrantes</a></li>
+            <li><a href="#">Inscrições</a></li>*@
             <li>@Html.ActionLink("Contato", "Contato")</li>
         </ul>
     </div>
@@ -28,14 +28,15 @@
         @RenderBody()
     </div>
     <div class="footer">
-        <p>Design e layout por André Baltieri e Vinicius Quaiato - MVC Summit 2011</p>
+        <p>
+            Design e layout por André Baltieri e Vinicius Quaiato - MVC Summit 2011</p>
     </div>
 </body>
 </html>
 <script type="text/javascript">
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
     document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script> 
+</script>
 <script type="text/javascript">
     try {
         var pageTracker = _gat._getTracker("UA-20617560-1");
