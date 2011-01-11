@@ -11,12 +11,12 @@
     <div class='header'>
         <div class='logo'>
             <a href='@Url.Action("Index")' title="MVc Summit 2011 - Home">
-                <img src='@Url.Content("~/images/mvcsummit_logo.png")' alt="ASP.NET MVC Summit 2011" />
+                <img src='@Url.Content("~/images/Logo.png")' alt="ASP.NET MVC Summit 2011" />
             </a>
         </div>
     </div>
     <div class='top-menu'>
-        <ul class="menu">
+        <ul id="nav">
             <li>@Html.ActionLink("O Evento", "OEvento")</li>
             <li>@Html.ActionLink("Grade", "Grade")</li>
 
@@ -25,10 +25,11 @@
     </div>
     <div class="content">
         @RenderBody()
-    </div>
-    <div class="footer">
+        <div class="footer">
         <p>
             Design e layout por André Baltieri e Vinicius Quaiato - MVC Summit 2011</p>
+    </div>
+
     </div>
 </body>
 </html>
